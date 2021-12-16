@@ -18,5 +18,10 @@
   "homepage": "https://github.com/cunhaestgv/todelete#readme",
   "devDependencies": {
     "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "clean": "^4.0.2",
+    "express": "^4.17.1",
+    "supertest": "^6.1.6"
   }
 }
