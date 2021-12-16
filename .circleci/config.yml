@@ -8,4 +8,5 @@ jobs:
       - image: cimg/node:17.2.0
     steps:
       - checkout
-      - run: node --version
+      - run: node install
+      - run: node test
