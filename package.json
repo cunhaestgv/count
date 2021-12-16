@@ -1,0 +1,22 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Something",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunhaestgv/todelete.git"
+  },
+  "author": "Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunhaestgv/todelete/issues"
+  },
+  "homepage": "https://github.com/cunhaestgv/todelete#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
