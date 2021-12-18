@@ -1,3 +1,4 @@
+//código
 
 const express = require('express')
 const app = express()
@@ -6,7 +7,7 @@ const number =0;
 
 app.post('/', (req, res) => {
   number++;
-  res.send(number.toString());
+  res.send();
 })
 
 app.get('/', (req, res) => {
