@@ -7,7 +7,7 @@ describe("GET / ", () => {
   test("should increment number", async () => {
     const responseGet = await request.get("/");
     expect(responseGet.statusCode).toBe(200);
-    const responsePost = await request.post("/");
+    const responsePost = await request.post("/").send("");
     expect(responsePost.statusCode).toBe(200);
 
     const responseGet2 = await request.get("/");
