@@ -7,7 +7,7 @@ const number =0;
 
 app.post('/', (req, res) => {
   number++;
-  res.send();
+ // res.send();
 })
 
 app.get('/', (req, res) => {
